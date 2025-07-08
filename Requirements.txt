@@ -1,0 +1,10 @@
+Langchain
+Langsmith
+langgraph
+langchain-groq
+python-dotenv
+jinja2
+fastapi-mail
+fastapi
+pydantic
+uvicorn
