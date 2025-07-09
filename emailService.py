@@ -27,7 +27,7 @@ class SendMailRequest(BaseModel):
 @app.post("/send_mail")
 async def send_mail(req: SendMailRequest):
     message = MessageSchema(
-        subject = "Fastapi-Mail module",
+        subject = "Bhushan's Newsletter",
         recipients = req.email_list,
         body = req.template,
         subtype = "html"

@@ -5,15 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "chromadb>=1.0.15",
     "fastapi>=0.116.0",
     "fastapi-mail>=1.5.0",
     "jinja2>=3.1.6",
     "langchain>=0.3.26",
+    "langchain-chroma>=0.2.4",
+    "langchain-community>=0.3.27",
     "langchain-groq>=0.3.5",
+    "langchain-huggingface>=0.3.0",
     "langgraph>=0.5.1",
     "langsmith>=0.4.4",
     "pydantic>=2.11.7",
     "python-dotenv>=1.1.1",
     "sendgrid>=6.12.4",
+    "sentence-transformers>=5.0.0",
     "uvicorn>=0.35.0",
 ]
