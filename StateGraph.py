@@ -6,8 +6,10 @@ class State(TypedDict):
     links: Annotated[list[str], "merge"]
     summaries: Annotated[list[str], "merge"]
     email_ids: Annotated[list[str], "merge"]
+    news_categories: Annotated[list[str], "merge"]
     publish_state: bool
     offset: int
     num_articles: int
     total_fetched: int
     max_fetch: int
+    exception: bool

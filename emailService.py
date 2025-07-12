@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 from fastapi_mail import FastMail, MessageSchema, ConnectionConfig
-from starlette.requests import Request
 from starlette.responses import JSONResponse
 import dotenv
-import os
 from pydantic import BaseModel
 
 dotenv.load_dotenv()
